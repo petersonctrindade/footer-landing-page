@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: unset;
+}
+
+h1, p, a, input {
+    font-family: "Poppins", sans-serif;
+    margin: unset;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: #E6C744;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20% 50px 20%;
+}
+
+main h1 {
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+}
+
+main p {
+    font-size: 26px;
+    text-align: center;
+}
+
+main form {
+    margin-top: 30px;
+    height: 70px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main form input {
+    border: unset;
+    margin-left: 20px;
+    height: 40px;
+    width: 60%;
+    color: black;
+}
+
+main form input:focus {
+    outline: unset;
+}
+
+main form input::placeholder {
+    font-size: 18px;
+}
+
+main form button {
+    border: unset;
+    margin-right: 10px;
+    background-color: #000000;
+    height: 50px;
+    border-radius: 10px;
+    width: 120px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Poppins";
+}
+
+footer {
+    background-color: #000000;
+    height: min-content;
+    padding: 70px 75px 120px 75px;
+    display: grid;
+    grid-template-columns: 49% 51%;
+    grid-template-rows: 110%;
+}
+
+footer #brand {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+footer #brand h1 {
+    font-size: 52px;
+}
+
+footer #brand p {
+    line-height: 2;
+    color: #a9a9a9;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+}
+
+footer #brand #social-media-links {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer #brand #social-media-links a {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #E6C744;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #brand #social-media-links img {
+    height: 20px;
+    width: 20px;
+    
+    /* height: 100%; */
+    /* width: 100%; */
+    /* object-fit: contain; */
+}
+
+footer #links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer #links .links-box {
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer #links .links-box p {
+    font-size: 18px;
+}
+
+footer #links .links-box a {
+    font-size: 18px;
+    color: #a9a9a9;
+}
